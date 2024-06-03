@@ -1,0 +1,8 @@
+jugador_6 60
+jugador_nou 180
+jugador_1 200
+jugador_2 400
+jugador_7 480
+jugador_3 600
+jugador_4 800
+jugador_5 1000
