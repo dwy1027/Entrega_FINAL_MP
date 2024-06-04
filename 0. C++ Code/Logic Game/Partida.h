@@ -54,7 +54,7 @@ private:
 	LlistaFigura m_figura;
 	LlistaEspera m_desplas;
 
-	void acturalitzar(int filesEliminades);
+	void acturalitzar(int filesEliminades); 
 
 	void iniciFigura(const string& nomFitxer);
 	void iniciDesplas(const string& nomFitxer);

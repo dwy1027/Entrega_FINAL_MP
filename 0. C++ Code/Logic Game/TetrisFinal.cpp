@@ -89,7 +89,7 @@ int Tetris::juga(Screen& pantalla, ModeJoc mode, const string& nomFitxerInicial,
         NOW = SDL_GetPerformanceCounter();
         deltaTime = (double)((NOW - LAST) / (double)SDL_GetPerformanceFrequency());
 
-        // Captura tots els events de ratolí i teclat de l'ultim cicle
+        // Captura tots els events de ratol?i teclat de l'ultim cicle
         pantalla.processEvents();
 
         game.actualitza(deltaTime);

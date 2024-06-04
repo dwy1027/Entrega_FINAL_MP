@@ -114,7 +114,7 @@ void Figura::mou(int dirX)
 	m_columna += dirX;
 }
 
-void Figura::gira(DireccioGir direccio)//girem 90º -> o <-
+void Figura::gira(DireccioGir direccio)//girem 90?-> o <-
 {
 	transposaMascara();
 	if (direccio == GIR_HORARI)

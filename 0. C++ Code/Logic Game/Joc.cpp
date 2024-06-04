@@ -104,9 +104,8 @@ int Joc::posarFigura()
 void Joc::escriuTauler(const string& nomFitxer)
 {
 	ofstream fitxerSortida(nomFitxer);
-	if (!fitxerSortida.is_open()) {
-		return; // No es pot obrir el fitxer de sortida, sortim de la funció
-	}
+	if (!fitxerSortida.is_open()) 
+		return; // No es pot obrir el fitxer de sortida, sortim de la funci?	} I delete a { too
 
 	if (m_figuraActual.getTipus() != NO_FIGURA) {
 		m_tauler.dibuixaFigura(m_figuraActual);

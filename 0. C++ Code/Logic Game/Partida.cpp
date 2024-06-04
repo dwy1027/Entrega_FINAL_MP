@@ -18,9 +18,8 @@ void Partida::inicialitza(const string& fitxer1, const string& fitxer2, const st
 void Partida::iniciFigura(const string& nomFitxer)
 {
     ifstream fitxer(nomFitxer);
-    if (!fitxer.is_open()) {
-        return; // No es pot obrir el fitxer, sortim de la funció
-    }
+    if (!fitxer.is_open()) 
+        return; // No es pot obrir el fitxer, sortim de la funci?    I delete a { make the code fuction now
 
     DadesFigura figura;
     int tipus;
